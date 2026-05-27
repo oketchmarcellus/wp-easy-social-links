@@ -1,0 +1,41 @@
+<?php
+/**
+ * Default configurations and helper function for Marcels Easy Socials
+ */
+
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
+/**
+ * Retrieve the default profile options array matrix.
+ *
+ * @return array Default settings schema.
+ */
+function marcels_easy_socials_get_default_settings() {
+    return array(
+        'social'          => array(
+            array(
+                'label' => 'github',
+                'url'   => 'https://github.com',
+                'logo'  => '',
+            ),
+        ),
+        'showHideSocials' => true,
+        'linkGap'         => '16px',
+        'textIconGap'     => '10px',
+        'fontColor'       => '#1d2327',
+        'fontSize'        => '14px',
+        'iconSize'        => '20px',
+        'hasBorder'       => true,
+        'showText'        => true,
+        'labelPosition'   => 'right',
+        'borderColor'     => '#ccd0d4',
+        'borderWidth'     => '1px',
+        'iconBgColor'     => 'transparent',
+    );
+}
+
+// Return the function name so the main file knows it is successfully loaded
+return 'marcels_easy_socials_get_default_settings';

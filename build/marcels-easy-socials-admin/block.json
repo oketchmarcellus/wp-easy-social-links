@@ -1,0 +1,5 @@
+{
+  "apiVersion": 3,
+  "name": "marcels-easy-social/marcels-easy-socials-admin",
+  "editorScript": "file:./index.js"
+}
