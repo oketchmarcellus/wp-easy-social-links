@@ -18,7 +18,7 @@ const App = () => {
  * Initialize the React Admin Interface
  */
 domReady(() => {
-    const rootElement = document.getElementById('marcels-easy-socials-admin-app');//should be same as the div id in the PHP render function
+    const rootElement = document.getElementById('wp-easy-social-links-admin-app');//should be same as the div id in the PHP render function
     
     if (rootElement) {
         const root = createRoot(rootElement);

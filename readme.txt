@@ -5,12 +5,18 @@ Tested up to:      7.0
 Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+GitHub Plugin URI: https://github.com/oketchmarcellus/wp-easy-social-links/
 
 A social media plugin for adding dynamic social media profile links and custom logos to your WordPress website.
 
 == Description ==
 
 WP Easy Socials Links Plugin provides a React-powered admin settings dashboard to customize and manage your social media profile links, plus an accompanying Gutenberg block to add and render them easily on your WordPress pages.
+
+* [View on GitHub](https://github.com/oketchmarcellus/wp-easy-social-links/)
+* [Report Issues](https://github.com/oketchmarcellus/wp-easy-social-links/issues)
+* [Follow the Developer](https://github.com/oketchmarcellus/)
+
 
 == Installation ==
 

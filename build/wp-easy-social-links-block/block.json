@@ -1,9 +1,9 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "create-block/marcels-easy-socials-block",
+  "name": "create-block/wp-easy-social-links-block",
   "version": "0.1.0",
-  "title": "Marcels Easy Socials",
+  "title": "WP Easy Social Links",
   "category": "dashicons-share",
   "icon": "share-alt",
   "description": "A Simple Social media plugin for adding social media links to your WordPress website.",

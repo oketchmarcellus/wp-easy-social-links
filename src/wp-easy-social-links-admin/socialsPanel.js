@@ -22,8 +22,8 @@ const SocialsPanel = ({ socialData, setSocialData }) => {
         }
 
         const frame = window.wp.media( {
-            title: __( 'Select or Upload Media', 'marcels-easy-socials' ), // Updated text domain
-            button: { text: __( 'Use this media', 'marcels-easy-socials' ) },
+            title: __( 'Select or Upload Media', 'wp-easy-social-links' ), // Updated text domain
+            button: { text: __( 'Use this media', 'wp-easy-social-links' ) },
             multiple: false 
         } );
 
@@ -70,10 +70,10 @@ const SocialsPanel = ({ socialData, setSocialData }) => {
                 { socialData.social.map( ( row, index ) => (
                     <Flex key={ index } align="end" gap={ 4 } style={ { borderBottom: '1px solid #f0f0f0', paddingBottom: '16px', marginBottom: '8px', alignItems: 'center'} }>
                         {/* 1. Logo Selection Input Column */}
-                        <FlexItem className="easy-socials-logo-column">
+                        <FlexItem className="wp-easy-social-links-logo-column">
                             <div style={ { position: 'relative', width: '55px', height: '55px' } }>
                                 { row.logo ? (
-                                    <img className="easy-socials-logo" src={ row.logo } onClick={ () => openMediaLibrary( ( media ) => updateField( index, 'logo', media.url ) ) }
+                                    <img className="wp-easy-social-links-logo" src={ row.logo } onClick={ () => openMediaLibrary( ( media ) => updateField( index, 'logo', media.url ) ) }
                                         alt="Selected logo" style={ { width: '100%', height: '100%', objectFit: 'contain', cursor: 'pointer', border: '1px solid #ccc', borderRadius: '4px' } } 
                                     />
                                 ) : (
@@ -92,19 +92,19 @@ const SocialsPanel = ({ socialData, setSocialData }) => {
                                 )}
                             </div>
                             <label className="components-base-control__label" style={ { display: 'block', marginTop: '8px', fontStyle: 'italic',color: '#50575e' } }>
-                                { __( 'Socio Icon', 'marcels-easy-socials' ) }
+                                { __( 'Socio Icon', 'wp-easy-social-links' ) }
                             </label>
                         </FlexItem>
-                        <Flex className="easy-socials-field-inputs-column">
+                        <Flex className="wp-easy-social-links-field-inputs-column">
                             <FlexItem className="platform-label">
                                 <TextControl
-                                    label={ __( 'Social Platform Label', 'marcels-easy-socials' ) }
+                                    label={ __( 'Social Platform Label', 'wp-easy-social-links' ) }
                                     value={ row.label } placeholder="e.g., GitHub"
                                     onChange={ ( val ) => updateField( index, 'label', val ) }
                                 />
                             </FlexItem>
                             <FlexItem className="platform-url">
-                                <TextControl label={ __( 'Social Platform URL', 'marcels-easy-socials' ) } value={ row.url }
+                                <TextControl label={ __( 'Social Platform URL', 'wp-easy-social-links' ) } value={ row.url }
                                     placeholder="https://..."
                                     onChange={ ( val ) => updateField( index, 'url', val ) }
                                 />
@@ -122,7 +122,7 @@ const SocialsPanel = ({ socialData, setSocialData }) => {
             { /* Control UI Buttons Container Section */ }
             <Flex justify="flex-start" style={ { marginTop: '12px' } }>
                 <Button variant="secondary" icon={ plus } onClick={ addRepeaterRow }>
-                    { __( 'Add New Social Link', 'marcels-easy-socials' ) }
+                    { __( 'Add New Social Link', 'wp-easy-social-links' ) }
                 </Button>
             </Flex>
             <style>
@@ -135,18 +135,18 @@ const SocialsPanel = ({ socialData, setSocialData }) => {
                         flex-grow: 1;
                     }
 
-                    .easy-socials-logo-column {
+                    .wp-easy-social-links-logo-column {
                         align-items: center;
                         flex-basis:70px;
                         flex-grow: 0;
                     }
 
-                    .easy-socials-logo {
+                    .wp-easy-social-links-logo {
                         width: 35px;
                         height: 35px;
                     }
 
-                    .easy-socials-field-inputs-column{
+                    .wp-easy-social-links-field-inputs-column{
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
@@ -162,16 +162,16 @@ const SocialsPanel = ({ socialData, setSocialData }) => {
                             flex-grow: 2;
                         }
 
-                        .easy-socials-logo-column {
+                        .wp-easy-social-links-logo-column {
                             flex-basis: 120px;
                         }
 
-                        .easy-socials-logo {
+                        .wp-easy-social-links-logo {
                             width: 55px;
                             height: 55px;
                         }
 
-                        .easy-socials-field-inputs-column {
+                        .wp-easy-social-links-field-inputs-column {
                             flex-direction: row;
                             gap: 16px;
                             align-items: center;

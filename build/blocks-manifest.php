@@ -1,17 +1,17 @@
 <?php
 // This file is generated. Do not modify it manually.
 return array(
-	'marcels-easy-socials-admin' => array(
+	'wp-easy-social-links-admin' => array(
 		'apiVersion' => 3,
-		'name' => 'marcels-easy-social/marcels-easy-socials-admin',
+		'name' => 'wp-easy-social-links/wp-easy-social-links-admin',
 		'editorScript' => 'file:./index.js'
 	),
-	'marcels-easy-socials-block' => array(
+	'wp-easy-social-links-block' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'create-block/marcels-easy-socials-block',
+		'name' => 'create-block/wp-easy-social-links-block',
 		'version' => '0.1.0',
-		'title' => 'Marcels Easy Socials',
+		'title' => 'WP Easy Social Links',
 		'category' => 'dashicons-share',
 		'icon' => 'share-alt',
 		'description' => 'A Simple Social media plugin for adding social media links to your WordPress website.',

@@ -53,7 +53,7 @@ const SocialsListRenderer = ( { socialData } ) => {
                         </span>
                         { socialData.showText && (
                             <span className="wp-easy-social-links-text-node">
-                                { row.label || __( 'Unnamed Link', 'marcels-easy-socials' ) }
+                                { row.label || __( 'Unnamed Link', 'wp-easy-social-links' ) }
                             </span>
                         ) }
                     </a>
@@ -62,7 +62,7 @@ const SocialsListRenderer = ( { socialData } ) => {
 
             <style>
                 {`
-                    .wp-easy-socials-links-box {
+                    .wp-easy-social-links-box {
                         display: flex;
                         flex-wrap: wrap;
                         gap: ${socialData.linkGap};
