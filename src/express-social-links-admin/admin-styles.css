@@ -1,0 +1,15 @@
+.wrap {
+    margin: 10px !important;
+}
+.components-panel {
+    padding: 20px !important;
+}
+
+#express-socials-admin-app {
+    /* The official, modern WordPress core system font engine stack */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #1d2327; /* Standard WP Off-Black text color (never use pure #000) */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+

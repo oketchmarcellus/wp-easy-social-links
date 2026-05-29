@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "create-block/express-social-links-block",
+    "version": "0.1.0",
+    "title": "Express Social Links",
+    "category": "dashicons-share",
+    "icon": "share-alt",
+    "description": "A Simple Social media plugin for adding social media links to your WordPress website.",
+    "example": {},
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "social": { "type": "array", "default": [] },
+        "showHideSocials": { "type": "boolean" },
+        "showText": { "type": "boolean" },
+        "hasBorder": { "type": "boolean" },
+        "linkGap": { "type": "string" },
+        "textIconGap": { "type": "string" },
+        "fontColor": { "type": "string" },
+        "fontSize": { "type": "string" },
+        "iconSize": { "type": "string" },
+        "labelPosition": { "type": "string" },
+        "iconBgColor": { "type": "string" },
+        "borderColor": { "type": "string" },
+        "borderWidth": { "type": "string" }
+    },
+    "textdomain": "express-social-links",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css",
+    "viewScript": "file:./view.js",
+    "render": "file:./render.php"
+}

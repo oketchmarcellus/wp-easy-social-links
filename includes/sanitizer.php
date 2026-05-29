@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 
-function wp_easy_social_links_sanitize_payload( $input ) {
+function express_social_links_sanitize_payload( $input ) {
     if ( ! is_array( $input ) ) {
         return array();
     }

@@ -15,7 +15,7 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 // $wpdb->query( "DROP TABLE IF EXISTS $table_name" );
 
 // Delete the Settings/Options from wp_options
-delete_option( 'wp_easy_socials_links_data' );
+delete_option( 'express_socials_links_data' );
 
 
 //Clear any cached data (Optional but recommended)

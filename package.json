@@ -1,5 +1,5 @@
 {
-	"name": "wp-easy-social-links",
+	"name": "wpeasy-social-links",
 	"version": "0.1.0",
 	"description": "A simple social media sharing plugin for your WordPress site.",
 	"author": "Marcel Oketch",
@@ -26,7 +26,7 @@
 		"assets/",
 		"build/",
 		"includes/",
-		"marcels-easy-socials.php",
+		"wpeasy-social-links.php",
 		"*.txt",
 		"*.php",
 		"languages/",

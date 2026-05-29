@@ -1,17 +1,17 @@
 <?php
 // This file is generated. Do not modify it manually.
 return array(
-	'wp-easy-social-links-admin' => array(
+	'express-social-links-admin' => array(
 		'apiVersion' => 3,
-		'name' => 'wp-easy-social-links/wp-easy-social-links-admin',
+		'name' => 'express-social-links/express-social-links-admin',
 		'editorScript' => 'file:./index.js'
 	),
-	'wp-easy-social-links-block' => array(
+	'express-social-links-block' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'create-block/wp-easy-social-links-block',
+		'name' => 'create-block/express-social-links-block',
 		'version' => '0.1.0',
-		'title' => 'WP Easy Social Links',
+		'title' => 'Express Social Links',
 		'category' => 'dashicons-share',
 		'icon' => 'share-alt',
 		'description' => 'A Simple Social media plugin for adding social media links to your WordPress website.',
@@ -65,7 +65,7 @@ return array(
 				'type' => 'string'
 			)
 		),
-		'textdomain' => 'marcels-easy-socials',
+		'textdomain' => 'express-social-links',
 		'editorScript' => 'file:./index.js',
 		'editorStyle' => 'file:./index.css',
 		'style' => 'file:./style-index.css',

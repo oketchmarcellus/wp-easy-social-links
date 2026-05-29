@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @return array Default settings schema.
  */
-function wp_easy_social_links_get_default_settings() {
+function express_social_links_get_default_settings() {
     return array(
         'social'          => array(
             array(
@@ -38,4 +38,4 @@ function wp_easy_social_links_get_default_settings() {
 }
 
 // Return the function name so the main file knows it is successfully loaded
-return 'wp_easy_social_links_get_default_settings';
+return 'express_social_links_get_default_settings';
